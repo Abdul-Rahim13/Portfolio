@@ -1,6 +1,6 @@
 import './App.css'
 import Navbar from './components/Navbar'
-import Hero from './Hero/hero'
+import Hero from './components/Hero'
 
 function App() {
 

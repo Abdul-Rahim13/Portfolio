@@ -11,9 +11,9 @@ function Hero() {
             <h1 className='text-3xl font-semibold text-white'>Developer based in Pakistan</h1>
         </div>
 
-        <div className='mt-5 mb-4'>
-            <button className='text-white mr-4 h-10 w-[150px] rounded-full bg-[linear-gradient(267deg,#DA7C25_0.36%,#B923E1_100%)] transform hover:scale-[1.05] transition duration-500 cursor-pointer'>Connect with me</button>
-            <button className='text-white'>My resume</button>
+        <div className='mt-5 mb-4 flex gap-[25px]'>
+            <button className='text-white h-10 w-[150px] rounded-full bg-[linear-gradient(267deg,#DA7C25_0.36%,#B923E1_100%)] transform hover:scale-[1.05] transition duration-500 cursor-pointer'>Connect with me</button>
+            <button className='text-white h-10 w-[150px] rounded-full border-2 ransform hover:scale-[1.05] hover:border-[#B415FF] transition duration-500 cursor-pointer border-white/40'>My resume</button>
         </div>
     </div>
   )
