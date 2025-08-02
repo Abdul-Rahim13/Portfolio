@@ -4,18 +4,28 @@ import { FaLinkedin, FaGithub } from "react-icons/fa";
 function Footer() {
   return (
     <div className="bg-[#161513] py-8">
+      {/* Divider */}
       <div className="border-t border-gray-400 w-10/12 mx-auto my-6"></div>
 
-      <div className="grid grid-cols-2 gap-20 items-center w-10/12 mx-auto">
+      {/* Main Footer */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-20 items-center w-10/12 mx-auto text-center md:text-left">
+        {/* Left Side - Copyright */}
         <div>
-          <h1 className="text-white text-center md:text-left">
+          <h1 className="text-white text-sm sm:text-base">
             © 2025 Abdul Rahim. All rights reserved.
           </h1>
         </div>
 
-        <div className="flex justify-around text-white items-center">
-          <a className="hover:text-[#DF8908]">Terms of Service</a>
-          <a className="hover:text-[#DF8908]">Privacy Policy</a>
+        {/* Right Side - Links & Socials */}
+        <div className="flex flex-col md:flex-row justify-center md:justify-between items-center gap-4 md:gap-8">
+          <div className="flex gap-6 text-white text-sm sm:text-base">
+            <a className="hover:text-[#DF8908] transition cursor-pointer">
+              Terms of Service
+            </a>
+            <a className="hover:text-[#DF8908] transition cursor-pointer">
+              Privacy Policy
+            </a>
+          </div>
 
           <div className="flex gap-4">
             <a
