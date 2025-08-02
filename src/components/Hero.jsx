@@ -47,8 +47,8 @@ function Hero() {
         <button className="text-white h-10 w-[150px] rounded-full bg-[linear-gradient(267deg,#DA7C25_0.36%,#B923E1_100%)] transform hover:scale-[1.05] transition duration-500 cursor-pointer mx-auto sm:mx-0">
           Connect with me
         </button>
-        <button className="text-white h-10 w-[150px] rounded-full border-2 transform hover:scale-[1.05] hover:border-[#B415FF] transition duration-500 cursor-pointer border-white/40 mx-auto sm:mx-0">
-          My resume
+        <button onClick={() => {window.open('/CV.pdf', '_blank');}} className="text-white h-10 w-[150px] rounded-full border-2 transform hover:scale-[1.05] hover:border-[#B415FF] transition duration-500 cursor-pointer border-white/40 mx-auto sm:mx-0">
+            My resume
         </button>
       </div>
     </div>
