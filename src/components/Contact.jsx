@@ -4,8 +4,7 @@ import { faEnvelope, faPhone, faLocationDot } from '@fortawesome/free-solid-svg-
 
 function Contact() {
   return (
-    <div className='bg-[#161513]'>
-      {/* Heading */}
+    <div id='contact' className='bg-[#161513]'>
       <div className='flex flex-col items-center'>
         <h1 className='text-6xl font-semibold text-white mt-30 text-center relative'>Get in Touch</h1>
         <img
@@ -15,10 +14,8 @@ function Contact() {
         />
       </div>
 
-      {/* Contact Section */}
       <div className='grid grid-cols-2 gap-20 mt-10 ml-50 '>
 
-        {/* Left Column */}
         <div className='flex flex-col justify-start items-start mt-5'>
           <h1 className='text-[50px] font-bold bg-gradient-to-l from-[#DF8908] to-[#B415FF] bg-clip-text text-transparent'>
             Let's talk
@@ -43,7 +40,6 @@ function Contact() {
           </div>
         </div>
 
-        {/* Right Column */}
         <div className='flex flex-col mt-5'>
           <h1 className='text-white text-[18px]'>Your Name</h1>
           <input 

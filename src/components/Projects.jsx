@@ -7,7 +7,7 @@ import P7 from '../assets/P7.jpg'
 
 function Projects() {
   return (
-    <div className='bg-[#161513]'>
+    <div id='portfolio' className='bg-[#161513]'>
         <div className='flex flex-col items-center'>
             <h1 className='text-6xl font-semibold text-white mt-30 text-center relative'>My Latest Work</h1>
             <img

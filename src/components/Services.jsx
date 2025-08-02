@@ -3,7 +3,7 @@ import profile_image from '../assets/profile_picture.jpg'
 
 function Services() {
   return (
-    <div className='bg-[#161513]'>
+    <div id='services' className='bg-[#161513]'>
         <div className='flex flex-col items-center'>
             <h1 className='text-6xl font-semibold text-white mt-30 text-center relative'>My Services</h1>
             <img

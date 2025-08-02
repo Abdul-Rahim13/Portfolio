@@ -4,7 +4,7 @@ import profile_image from '../assets/profile_picture.jpg'
 
 function Hero() {
   return (
-    <div className='flex flex-col items-center bg-[#161513] w-full top-0 left-0 m-0 p-0'>
+    <div id='home' className='flex flex-col items-center bg-[#161513] w-full top-0 left-0 m-0 p-0'>
         <img className='h-[300px] w-[300px] mt-8 rounded-full' src={profile_image} alt="profile_image" />
         <div className='mt-5'>
             <h1 className='text-4xl font-semibold text-white'><span className='bg-gradient-to-r from-[#DF8908] to-[#B415FF] bg-clip-text text-transparent'>I'm Abdul Rahim,</span> MERN Stack</h1>

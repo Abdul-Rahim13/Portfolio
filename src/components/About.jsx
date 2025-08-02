@@ -3,7 +3,7 @@ import profile_image from '../assets/profile_picture.jpg'
 
 function About() {
   return (
-    <div className='bg-[#161513]'>
+    <div id='about' className='bg-[#161513]'>
 
       <div className='flex flex-col items-center'>
         <h1 className='text-6xl font-semibold text-white mt-15 text-center relative'>About me</h1>
